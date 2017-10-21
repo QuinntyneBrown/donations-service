@@ -1,0 +1,5 @@
+<ce-donation-paginated-list [donations]="donations"                           
+                           (delete)="tryToDelete($event)"
+                           (edit)="tryToEdit($event)"
+                           (filterKeyUp)="handleDonationsFilterKeyUp($event)">
+</ce-donation-paginated-list>
